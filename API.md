@@ -213,6 +213,7 @@ Color manipulation and color space conversion.
 * [*color*.brighter](https://github.com/d3/d3-color/blob/master/README.md#color_brighter) - create a brighter copy of this color.
 * [*color*.darker](https://github.com/d3/d3-color/blob/master/README.md#color_darker) - create a darker copy of this color.
 * [*color*.displayable](https://github.com/d3/d3-color/blob/master/README.md#color_displayable) - returns true if the color is displayable on standard hardware.
+* [*color*.hex](https://github.com/d3/d3-color/blob/master/README.md#color_hex) - returns the hexadecimal RGB string representation of this color.
 * [*color*.toString](https://github.com/d3/d3-color/blob/master/README.md#color_toString) - returns the RGB string representation of this color.
 * [d3.rgb](https://github.com/d3/d3-color/blob/master/README.md#rgb) - create a new RGB color.
 * [d3.hsl](https://github.com/d3/d3-color/blob/master/README.md#hsl) - create a new HSL color.
@@ -317,17 +318,18 @@ Color ramps and palettes for quantitative, ordinal and categorical scales.
 Compute contour polygons using marching squares.
 
 * [d3.contours](https://github.com/d3/d3-contour/blob/master/README.md#contours) - create a new contour generator.
-* *contours* - compute the contours for a given grid of values.
-* *contours*.size -
-* *contours*.smooth -
-* *contours*.thresholds -
+* [contours](https://github.com/d3/d3-contour/blob/master/README.md#_contours) - compute the contours for a given grid of values.
+* [contours.contour](https://github.com/d3/d3-contour/blob/master/README.md#contours_contour) -
+* [contours.size](https://github.com/d3/d3-contour/blob/master/README.md#contours_size) -
+* [contours.smooth](https://github.com/d3/d3-contour/blob/master/README.md#contours_smooth) -
+* [contours.thresholds](https://github.com/d3/d3-contour/blob/master/README.md#contours_thresholds) -
 * [d3.contourDensity](https://github.com/d3/d3-contour/blob/master/README.md#contourDensity) - create a new density estimator.
-* *density* - estimate the density of a given array of samples.
-* *density*.x -
-* *density*.y -
-* *density*.cellSize -
-* *density*.thresholds -
-* *density*.bandwidth -
+* [density](https://github.com/d3/d3-contour/blob/master/README.md#_density) - estimate the density of a given array of samples.
+* [density.x](https://github.com/d3/d3-contour/blob/master/README.md#density_x) -
+* [density.y](https://github.com/d3/d3-contour/blob/master/README.md#density_y) -
+* [density.cellSize](https://github.com/d3/d3-contour/blob/master/README.md#density_cellSize) -
+* [density.thresholds](https://github.com/d3/d3-contour/blob/master/README.md#density_thresholds) -
+* [density.bandwidth](https://github.com/d3/d3-contour/blob/master/README.md#density_bandwidth) -
 
 ## [Dispatches (d3-dispatch)](https://github.com/d3/d3-dispatch)
 
@@ -704,6 +706,7 @@ Interpolate numbers, colors, strings, arrays, objects, whatever!
 * [*interpolate*.gamma](https://github.com/d3/d3-interpolate/blob/master/README.md#interpolate_gamma) - apply gamma correction during interpolation.
 * [d3.interpolateBasis](https://github.com/d3/d3-interpolate/blob/master/README.md#interpolateBasis) - generate a B-spline through a set of values.
 * [d3.interpolateBasisClosed](https://github.com/d3/d3-interpolate/blob/master/README.md#interpolateBasisClosed) - generate a closed B-spline through a set of values.
+* [d3.piecewise](https://github.com/d3/d3-interpolate/blob/master/README.md#piecewise) - generate a piecewise linear interpolator from a set of values.
 * [d3.quantize](https://github.com/d3/d3-interpolate/blob/master/README.md#quantize) - generate uniformly-spaced samples from an interpolator.
 
 ## [Paths (d3-path)](https://github.com/d3/d3-path)
